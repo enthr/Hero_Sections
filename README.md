@@ -19,11 +19,11 @@ Hero Sections Built Using HTML5 and CSS3
 
 ### Screenshot
 
-![Project-2](Project_3/output.png)
+![Project-3](Project_3/output.png)
 
 
 ## Hero Section - 4
 
 ### Screenshot
 
-![Project-2](Project_4/output.png)
+![Project-4](Project_4/output.png)
