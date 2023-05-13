@@ -1,0 +1,129 @@
+/* Global */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F9F5ED;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navbar__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbar__links li {
+    list-style: none;
+}
+
+.navbar__links li:hover {
+    cursor: pointer;
+    font-weight: 500;
+    color: #3B855B;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.hero__left-heading {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.hero__left-description {
+    font-weight: 300;
+}
+
+.hero__left-button {
+    border: none;
+    background-color: #3B855B;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+}
+
+.hero__left-button:hover {
+    background-color: #366349;
+    cursor: pointer;
+}
+
+.hero__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;   
+}
+
+.hero__right-img1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.hero__right-img1 img, .hero__right-img2 img {
+    width: 100%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }    
+    .navbar, .navbar__links {
+        display: flex;
+        flex-direction: column;
+    } 
+    .hero__left, .hero__right {
+        width: 100%;
+    }
+    .hero__left {
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
