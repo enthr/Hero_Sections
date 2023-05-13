@@ -10,4 +10,4 @@ A Hero Section For Legal Services Webstie
 
 ## Screenshot
 
-![Project-6](./output.png)
+![Project-6](./Output.png)

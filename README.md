@@ -40,4 +40,4 @@ Hero Sections Built Using HTML5 and CSS3
 
 ### Screenshot
 
-![Project-6](Project_6/output.png)
+![Project-6](Project_6/Output.png)
