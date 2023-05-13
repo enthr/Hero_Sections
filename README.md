@@ -27,3 +27,17 @@ Hero Sections Built Using HTML5 and CSS3
 ### Screenshot
 
 ![Project-4](Project_4/output.png)
+
+
+## Hero Section - 5
+
+### Screenshot
+
+![Project-5](Project_5/output.png)
+
+
+## Hero Section - 6
+
+### Screenshot
+
+![Project-6](Project_6/output.png)
